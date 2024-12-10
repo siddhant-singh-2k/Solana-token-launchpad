@@ -1,6 +1,5 @@
 import "./App.css";
 
-
 // wallet adapter imports
 import {
   ConnectionProvider,
@@ -16,11 +15,7 @@ import { TokenLaunchpad } from "./components/TokenLaunchpad";
 
 function App() {
   return (
-    <ConnectionProvider
-      endpoint={
-        "https://api.devnet.solana.com"
-      }
-    >
+    <ConnectionProvider endpoint={"https://api.devnet.solana.com"}>
       <WalletProvider wallets={[]} autoConnect>
         <WalletModalProvider>
           <div
