@@ -18,7 +18,7 @@ function App() {
   return (
     <ConnectionProvider
       endpoint={
-        "https://aged-twilight-wish.solana-devnet.quiknode.pro/f5c0fbe5fac4c69a33548750c9d6620797aae1a6"
+        "https://api.devnet.solana.com"
       }
     >
       <WalletProvider wallets={[]} autoConnect>
