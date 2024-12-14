@@ -1,5 +1,4 @@
-import {
-  createInitializeMint2Instruction,
+import { createInitializeMint2Instruction,
   getMinimumBalanceForRentExemptMint,
   TOKEN_PROGRAM_ID,
 } from "@solana/spl-token";
